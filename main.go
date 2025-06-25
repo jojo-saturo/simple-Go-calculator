@@ -28,7 +28,7 @@ func main() {
 		if num2 != 0 {
 			fmt.Printf("Result: %g\n", num1/num2)
 		} else {
-			fmt.Println("Error: Division by zero")
+			fmt.Println("Error: Undefined")
 		}
 	default:
 		fmt.Println("Error: Invalid operation")
